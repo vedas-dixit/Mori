@@ -24,7 +24,7 @@ const SectionTwo = () => {
 
   return (
     <>
-      <div className="flex flex-col w-full  items-center  bg-[#f4f4f4] z-0 h-full ">
+      <div className="flex flex-col w-full  items-center  bg-[#f4f4f4] z-0 h-[110vh] md:h-[50vh] mt-">
         <h2 className="text-9xl font-bold text-[#6B4A32] mb-6">Why Choose MORI?</h2>
 
         <div className="flex flex-col md:flex-row gap-6 ">
@@ -64,7 +64,7 @@ const SectionTwo = () => {
         <div className='flex group items-center justify-start w-full border-t border-[#E5E5E5] py-4'>
           <img src='/assets/flower.svg' className='w-0 opacity-0 pr-1 group-hover:opacity-100 group-hover:w-14 transition-all duration-500 ease-in-out '></img>
           <g className='flex w-full justify-between'>
-            <span className='text-[#E5E5E5] text-2xl font-light'>What can it do </span>
+            <span className='text-[#E5E5E5] text-2xl font-light'>What can it do ?</span>
             <span className='text-[#E5E5E5] text-3xl font-light group-hover:opacity-100 opacity-0 transition-all ease-in-out'>MORI empowers creators to build stunning portfolios effortlessly.</span>
           </g>
         </div>
